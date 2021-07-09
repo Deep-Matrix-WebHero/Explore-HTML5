@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>This is a Form.</h1>
+    <form action="">
+        <p> Name:<input type="text" name="name" placeholder="Enter your name" id=""></p>
+        <p> Email:<input type="text" name="email" placeholder="Enter your gmail" id=""></p>
+        <fieldset>
+            <legend>select your item.</legend>
+            <p>
+                <label for="pizza"><input type="radio" name="fast-food" id="pizza"></label>Pizza
+            </p>
+            <p>
+                <label for="pasta"><input type="radio" name="fast-food" id="pasta"></label>Pasta
+            </p>
+            <p>
+                <label for="burger"><input type="radio" name="fast-food" id="burger"></label>Burger
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>select your sauch</legend>
+            <p><label for="tomato"><input type="checkbox" name="sauch" id="tomato">Tomato Sauch</label></p>
+            <p><label for="choya"><input type="checkbox" name="sauch" id="choya">Choya sauch</label></p>
+            <p><label for="khoya"><input type="checkbox" name="sauch" id="khoya">Khoya</label></p>
+        </fieldset>
+        <p>special instruction/comments
+            <br>
+        <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+        
+        
+    </form>
+</body>
+</html>
