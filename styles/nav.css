@@ -1,0 +1,19 @@
+nav ul{
+    display: flex;
+    background-color: yellow;
+}
+nav li{
+    list-style: none;
+    margin: 20px;
+    padding:0 10px ;
+
+}
+nav li:hover{
+    background-color:yellowgreen;
+
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
