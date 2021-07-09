@@ -1,6 +1,5 @@
-nav ul{
+nav > ul{
     display: flex;
-    background-color: yellow;
 }
 nav li{
     list-style: none;
@@ -16,4 +15,19 @@ nav li a{
     text-decoration: none;
     color:black;
     font-size: 20px;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(216, 223, 153);
+    padding: 0;
+    margin: 0;
+
+}
+.dropdown li{
+    padding: 0 20px;
+    margin: 0;
 }
